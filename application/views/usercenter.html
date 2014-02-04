@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+<meta name="Keywords" content="旅行" />
+<meta name="Descriptions" content="配合移动端用极简的方式完成游记的撰写" />
+<title>香草旅行</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/jqueryslidemenu.css" />
+<link rel="stylesheet" type="text/css" href="css/quicksand.css" />
+<link rel="stylesheet" type="text/css" href="css/widget.css" /><link rel="stylesheet" type="text/css" href="css/own.css" />
+<link rel="stylesheet" type="text/css" href="css/hoverdir.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/jquery-1.8.1.js"></script>
+<script type="text/javascript" src="js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/portfolio_sortable.js"></script>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/own_silde.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('#list > li').hoverdir();
+});
+});
+</script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<body>
+<!-- Header Start -->
+<section id="header_wrap">
+<nav id="myslidemenu" class="jqueryslidemenu clearfix">
+    <ul>
+    	<!-- Logo Start -->
+<a href="index.html"><img style="float:left" src="images/logo.png" alt="img" /></a>
+<!-- Logo End -->
+        <li><a class="active" href="index.html">首页</a></li>
+        <li><a href="discover.html">发现</a></li>
+      <li><a href="usercenter.html">个人主页</a></li>
+  <form class="searchform" method="get" role="search" />
+            <input class="s" type="text" onBlur="if(this.value=='') this.value='Site Search'" onFocus="if(this.value =='Site Search' ) this.value=''" value="Site Search" />
+            <input class="searchsubmit" type="submit" value="" />
+            <a onClick="document.getElementById('search-form').submit()"></a>
+        </form>
+       <!-- <li><a href="typography.html">Typography</a>
+        <ul>
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="columns.html">Columns</a></li>
+            <li><a href="pricing_table.html">Pricing Table</a></li>
+        </ul>--> 
+    </ul>
+</nav>
+</section>
+<!-- Header End -->
+
+
+
+
+
+
+
+
+
+<div class="usercentertitle"><img src="images/Cover.jpg" alt="headimage"  width=100 >
+<br>
+<h2> &nbsp二叉 </h2>
+<br><br>
+		<div class="threebuttons" style="float:left;" >
+        <ul >
+		<li ><a class="titleright" href="#">旅程</a></li>
+		<li ><a class="titleright" href="#">想去</a></li>
+		<li ><a class="titleright" href="#">喜欢</a></li>
+        </ul>
+    	</div>
+        
+<!--        <div 	><a href="#"  style="font-size:2em;bakcground-color:black; float:right">添加旅程</a> </div>
+ --></div>
+
+
+<section id="content_wrap">
+<article>
+    <div class="page_title">
+    </div>
+    
+    <div>
+    <br>
+    <h2>我的旅程</h2>
+    <a href="writtings.html" ><h3>我的西藏之行</h3> </a>
+	<br>
+    <!-- Portfolio Start -->
+	<h2> 喜欢的图片 </h2>
+    <div id="portfolio_4col" class="image_grid">
+    <ul id="list" class="da-thumbs">
+        <li data-id="id-1" class="logo">
+            <img src="images/portfolio_img_1.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_1.html">
+                <h3>Designed Card</h3>
+                <p>In hac habitasse platea dictumst. Aliquam in est leo. Aliquam ut urna pulvinar 
+                ipsum ultricies fringilla et sed magna at eros leo.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-2" class="buisness">
+            <img src="images/portfolio_img_2.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_2.html">
+                <h3>Buck Bunny Image</h3>
+                <p>Aliquam hac habitasse platea dictumst. Aliquam in est leo. Aliquam ut urna et sed at grav hac.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-3" class="photgraphy">
+            <img src="images/portfolio_img_3.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_3.html">
+                <h3>Painted Design</h3>
+                <p>Tincidunt hac habitasse platea dictumst. Aliquam in est leo
+                ipsum ultricies fringilla et sed magna aliquam in.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-4" class="logo">
+            <img src="images/portfolio_img_4.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_4.html">
+                <h3>Big Logo</h3>
+                <p>Faucibus hac habitasse platea dictumst. Aliquam in est leo et 
+                sed magna. Duis faucibus lorem at in est cursus.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-5" class="buisness">
+            <img src="images/portfolio_img_5.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_5.html">
+                <h3>3D Cartoon</h3>
+                <p>Pulvinar hac habitasse platea dictumst ipsum ultricies fringilla et sed magna.
+                 Duis faucibus lorem a aliquam in est magna.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-6" class="photgraphy">
+            <img src="images/portfolio_img_6.jpg" alt="img" />
+            <div>
+            	<a href="portfolio_single_page_3.html">
+                <h3>Company Identity</h3>
+                <p>Sodales hac habitasse platea dictumst fringilla et sed magna. Duis faucibus lorem at sed.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-7" class="logo">
+            <img src="images/portfolio_img_7.jpg" alt="img" />
+            <div>
+            <a href="portfolio_single_page_2.html">
+                <h3>Graphic Effect</h3>
+                <p>Habitasse hac habitasse platea dictumst ipsum ultricies fringilla et sed magna.
+                 Duis faucibus lorem dictumst in esto.</p>
+                </a>
+            </div>
+        </li>
+        <li data-id="id-8" class="buisness">
+            <img src="images/portfolio_img_8.jpg" alt="img" />
+            <div>
+            	<a href="#">
+                <h3>Tennis Ball</h3>
+                <p>Dictumst hac habitasse platea dictumst ipsum ultricies fringilla et sed magna.
+                 Duis faucibus lorem at hac habitasse est vel.</p>
+                </a>
+            </div>
+        </li>
+
+    </ul>
+    </div>
+    <!-- Portfolio End -->
+    <br>
+    <h2> 喜欢的旅程  </h2>
+    <div class="lovejounery">  
+    <br>
+    <h3><a href=“#”> 丽江——人间天堂 </a></h3>
+	<br>
+    <h3><a href="#"> 西藏信仰之地</a></h3>
+    <br>
+    <h3><a href="#"> 和男友度过的浪漫小蜜月 </a></h3>
+    </div>
+    <br>
+    <h2> 想去的地方 </h2>
+    <h3> 南京 </h3>
+    <h3> 北京 </h3>
+</article>
+</section>
+<!-- Content End -->
+
+
+
+<br>
+<div id="triangle-down">&nbsp;</div>
+        
+<!-- Footer Start -->
+<section id="footer_wrap"> 
+<footer>
+    <div class="fullwidth">
+    <!--<div class="widget_container">
+        <h3>About <span>Theme</span></h3>
+        <p>Etiam rutrum, massa ac viverra malesuada, nisl velit vestibulum leo, non laoreet est leo ut velit.
+        Vivamus at ligula est. Phasellus venenatis mollis ligula non rhoncus. Pellentesque malesuada.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend libero eu ligula consectetur
+        lacinia. Aliquam non pellentesque turpis. Duis placerat felis sit amet dui gravida vulputate tristique
+        nibh rhoncus. Morbi hendrerit cursus nisl quis auctor.</p>
+    </div> -->
+    </div>
+   
+
+    <div class="bottom_sec">
+        <span>Copyright &copy; 香草旅行 2013</span>
+        <ul>
+            <li><img src="images/social_icon_1.png" alt="img" /></li>
+            <li><img src="images/social_icon_2.png" alt="img" /></li>
+            <li><img src="images/social_icon_3.png" alt="img" /></li>
+            <li><img src="images/social_icon_4.png" alt="img" /></li>
+            <li><img src="images/social_icon_5.png" alt="img" /></li>
+        </ul>
+    </div>
+
+</footer>
+</section>
+<!-- Footer End -->
+</body>
+</html>
